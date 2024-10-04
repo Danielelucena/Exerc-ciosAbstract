@@ -8,8 +8,12 @@ public class Pessoa {
         this.nome = nome;
         this.idade = idade;
     }
-public static void mostrarDados(String nome, int idade){
-    System.out.println(nome +','+idade);
+
+    public Pessoa(String nome, String idade, String numeroMatricula, String nomeCurso) {
+    }
+
+    public static void mostrarDados(String nome, String idade, String numeroMatricula, String nomeCurso){
+    System.out.println(nome +','+idade+','+ numeroMatricula+','+nomeCurso);
 }
     public String getNome() {
         return nome;
