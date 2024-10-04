@@ -14,7 +14,10 @@ public class Aluno extends Pessoa{
         this.numeroMatricula = numeroMatricula;
         this.nomeCurso = nomeCurso;
     }
-
+public int nM(int numeroMatricula){
+    numeroMatricula+=1;
+    return numeroMatricula;
+}
     public int getNumeroMatricula() {
         return numeroMatricula;
     }
